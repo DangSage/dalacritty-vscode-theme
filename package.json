@@ -1,0 +1,21 @@
+{
+  "name": "dalacritty-code-theme",
+  "displayName": "Dalacritty Theme",
+  "description": "A darkmode theme with medium-dark contrast",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dalacritty Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dalacritty-code-theme.json"
+      }
+    ]
+  }
+}
